@@ -207,3 +207,42 @@ nav {
 .arrow-back-container:hover .arrow-pointer {
     background-color: #f5f5fa; 
 }
+
+.resources-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    justify-content: center; 
+    margin: auto;
+    height: 100vh;
+    width: 100%; 
+    max-width: 800px; 
+
+    h2 {
+        margin: 0; 
+        color: #f5f5fa;
+        font-size: 2rem;
+        margin: 20px 0px 20px 0px;
+    }
+
+    ul {
+        list-style-type: circle; 
+        margin: 0; 
+        padding: 0; 
+        
+        li {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start; 
+
+            a {
+                color: #f5f5fa;
+                margin-left: 2rem;
+                line-height: 1.5;
+                font-size: 1.2rem;
+                font-weight: light;
+            }
+        }
+    }
+    
+}
